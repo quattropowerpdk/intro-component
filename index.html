@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Intro component with sign up form</title>
+
+  <link rel="stylesheet" href="styles.css">
+
+  </style>
+</head>
+<body>
+  <div class = 'container'>
+    <div class ='text_conatiner'>
+<h1 class ='title'>Learn to code by watching others</h1>
+<p class = 'text'>See how experienced developers solve problems in real-time. Watching scripted tutorials is great, 
+  but understanding how developers think is invaluable. </p>
+    </div>
+    <div class = 'input_container'>
+      <div class ='trial'>
+        <p class = 'trial_p'>Try it free 7 days  <span class ='trial_span'>then $20/mo. thereafter</span></p>
+      </div>
+      <form action = 'simionescu.gabriel90@gmail.com' class = 'form'>
+        
+        <div class = 'error'>
+        <input type = 'text' class="first_name" placeholder= "First Name">
+        <img class ='img img1 hidden' src = 'images/icon-error.svg'>
+        
+      </div>
+      <p class = 'error_p one hidden'>First name cannot be empty</p>
+      
+      <div class = 'error'>
+        <input type = 'text' class = 'last_name' placeholder= "Last Name">
+        <img class ='img img2 hidden'  src = 'images/icon-error.svg'>
+       
+      </div>
+      <p class = 'error_p two hidden'>Last name cannot be empty</p>
+      <div class = 'error'>
+        <input type = 'email' class = 'email' placeholder= "Email">
+        <img class ='img img3 hidden'  src = 'images/icon-error.svg'>
+        
+      </div>
+      <p class = 'error_p three hidden'>Looks like this is not an email</p>
+      <div class = 'error'>
+        <input type = 'password'  class="password" placeholder="Password (min 5 characters)">
+        <img class ='img img4 hidden'  src = 'images/icon-error.svg'>
+       
+      </div>
+      <p class = 'error_p four hidden'>Password cannot be empty</p>
+        <button class ='button'>Claim your free trial </button>
+        <p class = form_p>*By clicking the button, you are agreeing to our <span class = 'form_span'>Terms and Services</span></p>
+      </form>
+
+    </div>
+  </div>
+<script src = 'script.js'></script>
+</body>
+</html>
